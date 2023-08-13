@@ -9,9 +9,9 @@ else:
 
 if (mod > 5):
     status = "greater than 5"
-elif (mod < 6):
-    status = "less than 6 and not 0"
-else:
+elif (mod == 0):
     status = "0"
+else:
+    status = "less than 6 and not 0"
 
-print(f"Last digit of {number} is {mod:d} and is {status}")
+print(f"Last digit of {number:d} is {mod:d} and is {status:s}")
