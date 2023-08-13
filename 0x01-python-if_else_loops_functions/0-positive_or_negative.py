@@ -7,4 +7,4 @@ elif number < 0:
     output = "is negative"
 else:
     output = "is zero"
-print(output)
+print(f"{number} is {output}")
