@@ -6,7 +6,5 @@ def uppercase(str):
         # if character is in lower case
         if n in range(97, 123):
             n = n - 32
-        if i < (strlen - 1):
-            print("{:c}".format(n), end='')
-        else:
-            print("{:c}".format(n), end='\n')
+        print("{:c}".format(n), end='')
+    print('');
