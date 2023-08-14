@@ -7,4 +7,4 @@ def uppercase(str):
         if n in range(97, 123):
             n = n - 32
         print("{:c}".format(n), end='')
-    print('');
+    print('')
